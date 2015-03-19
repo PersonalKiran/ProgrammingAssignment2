@@ -8,7 +8,7 @@ makeCacheMatrix <- function(mat = matrix()) {
 	# Assigning the variable to NULL
 	matrixInv <- NULL						
 	
-	#Closure method set
+	# Closure method set
     set <- function(m) {
         mat <<- m 		
         matrixInv <<- NULL
