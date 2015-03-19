@@ -5,7 +5,9 @@
 
 
 makeCacheMatrix <- function(mat = matrix()) {
-	matrixInv <- NULL						# Assigning the variable to NULL
+	# Assigning the variable to NULL
+	matrixInv <- NULL						
+	
 	#Closure method set
     set <- function(m) {
         mat <<- m 		
